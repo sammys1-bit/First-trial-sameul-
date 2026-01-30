@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Second Page</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      text-align: center;
+      padding: 60px;
+      color: #333;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      max-width: 400px;
+      margin: auto;
+    }
+
+    h1 {
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
+      background: #ff758c;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    a {
+      display: block;
+      margin-top: 20px;
+      color: #ff4d6d;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>This is my second page demo ✨</h1>
+
+    <p>You're the only OG in my life ❤️</p>
+
+    <button onclick="showMsg()">Click Me</button>
+
+    <a href="index.html">⬅ Go Back Home</a>
+  </div>
+
+  <script>
+    function showMsg() {
+      alert("You just clicked a button on Page 2 🎉");
+    }
+  </script>
+
+</body>
+</html>
